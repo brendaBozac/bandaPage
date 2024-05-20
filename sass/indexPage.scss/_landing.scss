@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.bandalogo {
+    display: flex;
+    justify-content: center;
+    height: 60vmax;
+    filter: saturate(120%);
+    img {
+        margin-top: -5%;
+    }
+    
+}
+
+/* navbar */
+
+.navbar {
+    height: 5vmax;
+
+    div {
+
+        .navbar-brand {
+            font-size: 5vmin;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        div {
+            ul {
+                li {
+                    font-size: 3vmin;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            }
+        }
+    }
+
+}
+
+

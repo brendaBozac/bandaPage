@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bandalogo {
+  display: flex;
+  justify-content: center;
+  height: 55vmax;
+  filter: saturate(120%);
+}
+.bandalogo img {
+  margin-top: -5%;
+}
+
+/* navbar */
+.navbar {
+  height: 5vmax;
+}
+.navbar div .navbar-brand {
+  font-size: 5vmin;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar div div ul li {
+  font-size: 3vmin;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Estructura de media queries basada en los breakpoints de Bootstrap */
+/* Extra extra large (xxl) */
+/* Extra large (xl) */
+/* Large (lg) */
+/* Medium (md) */
+/* Small (sm) */
+/* Extra small (xs) */
+/* Extra extra small (xxs) */
+
+/*# sourceMappingURL=styles.css.map */
